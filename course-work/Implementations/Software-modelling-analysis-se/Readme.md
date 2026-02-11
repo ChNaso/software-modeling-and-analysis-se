@@ -17,28 +17,32 @@ Apple Music Clone е платформа за музикален стриймин
 ## Структура на проекта
 ---
 ``` Software-modelling-analysis-se/
-├── README.md                                     # Този файл
+├── DataWarehouse/
+    └── dw-schema.sql                             # Data Warehouse schema (Fact & Dimensions)
 ├── Diagrams/
 │   ├── Chens_Database_Diagram_Apple_Music.png    # Концептуален модел (Chen's notation)
 │   ├── Crows_Diagram_Apple_Music.png             # Логически модел (Crow's Foot notation)
 │   └── Data_Warehouse_Diagram_Apple_Music.png    # Data Warehouse модел (UML notation)
+├── PowerBI/
+    └── AppleMusicPowerBI.pbix                    # PowerBI доклад
 ├── SQDLDatabase/
 │   ├── 01_Schema_DDL.sql                         # CREATE TABLE statements
 │   ├── 02_Programmability.sql                    # Stored procedures, functions, triggers
 │   └── 03_Data_Seeding_DML.sql                   # Sample data insertion
-├── DataWarehouse/
-    └── dw-schema.sql                             # Data Warehouse schema (Fact & Dimensions)
+└── README.md                                     # Този файл
 ```
 
 ## Технологии
 ---
 * `База данни`: MS SQL Server
 * `Диаграми`: Mermaid.js
+*  `BI инструмент`: Power BI
 ## Инсталация и стартиране
 ---
 ### Предварителни изисквания
 * MS SQL Server (2019 или по-нова версия)
 * SQL Server Management Studio (SSMS)
+* Microsoft PowerBI
 
 ### Стъпки за инсталация
 1. Клониране на репозиторито
@@ -58,7 +62,9 @@ SQLDatabase/03-Data.sql (Зарежда тестови данни)
 3. Създаване на Data Warehouse
 
 ```Изпълнете скриптовете за създаване на Fact и Dimension таблиците```
+4. Power BI
 
+```Отворете Power BI Desktop```
 ## Модели на данни
 ---
 ### Основни обекти (Entities)
