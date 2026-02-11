@@ -18,13 +18,13 @@ Apple Music Clone е платформа за музикален стриймин
 ---
 ``` Software-modelling-analysis-se/
 ├── DataWarehouse/
-    └── dw-schema.sql                             # Data Warehouse schema (Fact & Dimensions)
+│   └── dw-schema.sql                             # Data Warehouse schema (Fact & Dimensions)
 ├── Diagrams/
 │   ├── Chens_Database_Diagram_Apple_Music.png    # Концептуален модел (Chen's notation)
 │   ├── Crows_Diagram_Apple_Music.png             # Логически модел (Crow's Foot notation)
 │   └── Data_Warehouse_Diagram_Apple_Music.png    # Data Warehouse модел (UML notation)
 ├── PowerBI/
-    └── AppleMusicPowerBI.pbix                    # PowerBI доклад
+│   └── AppleMusicPowerBI.pbix                    # PowerBI доклад
 ├── SQDLDatabase/
 │   ├── 01_Schema_DDL.sql                         # CREATE TABLE statements
 │   ├── 02_Programmability.sql                    # Stored procedures, functions, triggers
