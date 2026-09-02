@@ -62,6 +62,7 @@ SQLDatabase/03-Data.sql (Зарежда тестови данни)
 3. Създаване на Data Warehouse
 
 ```Изпълнете скриптовете за създаване на Fact и Dimension таблиците```
+
 4. Power BI
 
 ```Отворете Power BI Desktop```
